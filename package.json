@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "react-dom": "^18.3.1"
+  }
+}

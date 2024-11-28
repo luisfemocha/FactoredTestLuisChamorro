@@ -1,0 +1,161 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Juan Diaz",
+            "position": "Data Scientist",
+            "skills": { 
+                "Python": 90,
+                "SQL": 70,
+                "Java": 85,
+                "Spark": 35,
+                "Machine Learning": 70
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Kanya Lee",
+            "position": "Web Developer",
+            "skills": { 
+                "Python": 70,
+                "SQL": 30,
+                "Java": 90,
+                "HTML": 90,
+                "CSS": 95,
+                "JavaScript": 85
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Emma Johnson",
+            "position": "Cloud Engineer",
+            "skills": {
+                "AWS": 85,
+                "Azure": 70,
+                "Python": 80,
+                "Kubernetes": 65,
+                "Docker": 90
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Liam Brown",
+            "position": "Full Stack Developer",
+            "skills": {
+                "React": 90,
+                "Node.js": 85,
+                "MongoDB": 75,
+                "GraphQL": 80,
+                "TypeScript": 70
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sophia Martinez",
+            "position": "UI/UX Designer",
+            "skills": {
+                "Figma": 95,
+                "Adobe XD": 90,
+                "Sketch": 80,
+                "HTML": 70,
+                "CSS": 65
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Noah Wilson",
+            "position": "Cybersecurity Specialist",
+            "skills": {
+                "Network Security": 85,
+                "Penetration Testing": 80,
+                "Python": 70,
+                "Cryptography": 75,
+                "Ethical Hacking": 90
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Olivia Davis",
+            "position": "Machine Learning Engineer",
+            "skills": {
+                "Python": 95,
+                "TensorFlow": 90,
+                "PyTorch": 85,
+                "SQL": 80,
+                "Data Visualization": 75
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Mason Moore",
+            "position": "Mobile App Developer",
+            "skills": {
+                "Flutter": 85,
+                "Kotlin": 80,
+                "Swift": 75,
+                "React Native": 90,
+                "Java": 70
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/8.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Ava Miller",
+            "position": "Data Analyst",
+            "skills": {
+                "Excel": 90,
+                "Tableau": 85,
+                "Python": 70,
+                "SQL": 75,
+                "Power BI": 80
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/9.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Ethan Garcia",
+            "position": "DevOps Engineer",
+            "skills": {
+                "CI/CD": 90,
+                "Ansible": 80,
+                "Jenkins": 75,
+                "Docker": 85,
+                "Kubernetes": 70
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Isabella Martinez",
+            "position": "Game Developer",
+            "skills": {
+                "Unity": 90,
+                "C#": 85,
+                "3D Modeling": 75,
+                "Blender": 70,
+                "Unreal Engine": 80
+            },
+            "avatar": "https://randomuser.me/api/portraits/women/11.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Lucas Anderson",
+            "position": "Blockchain Developer",
+            "skills": {
+                "Solidity": 85,
+                "Ethereum": 80,
+                "JavaScript": 75,
+                "Smart Contracts": 90,
+                "Cryptography": 70
+            },
+            "avatar": "https://randomuser.me/api/portraits/men/12.jpg"
+        }
+    ]
+}
