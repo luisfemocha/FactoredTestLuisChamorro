@@ -1,7 +1,6 @@
 // @ts-ignore
 import React, { useState } from 'react';
-import {TextField, Button, FormControl, Grid, Alert, IconButton, AlertTitle /*, Box*/} from '@mui/material';
-import CloseIcon from "@mui/icons-material/Close";
+import {TextField, Button, FormControl, Grid, Alert, AlertTitle /*, Box*/} from '@mui/material';
 
 interface loginProps {
     onLogin: (id) => void;
@@ -14,9 +13,9 @@ const Login: React.FC<loginProps> = ({ onLogin /*, onSignUp*/ }) => {
     let [alert, setAlert] = useState("")
 
     const loginHandler = () => {
-        if (! id || id=="") {
+        if (! id || id==="") {
             console.log("You must provide an Employee ID");
-            setAlert =(
+            setAlert(
                 <Alert
                     onClose={() => {}}
                     severity="warning"
@@ -24,7 +23,6 @@ const Login: React.FC<loginProps> = ({ onLogin /*, onSignUp*/ }) => {
                     <AlertTitle> No id </AlertTitle>
                     You must provide an Employee ID.
                 </Alert>)
-
         }
         else onLogin(id);
     }

@@ -15,14 +15,24 @@ Made by <b>Luisfemocha</b> for <b>Factored</b>
    git clone https://github.com/luisfemocha/FactoredTestLuisChamorro.git
    cd FactoredTestLuisChamorro
    ```
-   
-4. Build and run the project: (this may take a while the first time)
-   ```bash
-   docker-compose up --build
-   ```
 
-5. Access the application by opening your browser and typing http://localhost:3000
+3a. As a temporary fix, you'd have to manually install some packages and then run the back:
+```bash
+cd backend
+pip install -r requirements.txt
+python -m uvicorn main:app --reload --port 8000
+cd ..
+```   
 
+3b.  Front:
+````bash
+cd frontend
+npm install
+npm start
+cd ..
+````
+
+4. Access the application by opening your browser and typing http://localhost:3000
 
 ---
 
@@ -36,7 +46,6 @@ Please let me know if you need further clarifications via email or WhatsApp.
 - Docker
 - FastAPI 0.115.5
 - Uvicorn 0.32.1
-- SQLAlchemy 2.0.30
 - React
 - MUI (Material UI for React)
 - ChartJS
